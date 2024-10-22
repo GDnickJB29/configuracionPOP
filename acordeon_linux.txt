@@ -1,0 +1,37 @@
+sudo apt update							---	para actualizar paquetes
+sudo apt upgrade						---	para actualizar
+sudo apt install						---	para instalar un programa
+sudo dpkg -i paquete.deb				---	para instalar un paquete debian
+nvtop									---	para visualiar el proceso de la grafica
+watch -n 1 du -sh [ruta]				---	para ver tamaño en cierta carpeta 		
+neofetch								---	para ver
+git clone [linkGit] [ruta(opcional)]	---	para descargar un git en la carpeta o ruta
+lsblk									---	para ver dispositivos de almacenamiento
+lspci									---	para ver componentes
+df -h									---	para ver cantidad de uso de los discos
+cp [origen] [destino]					---	para copear
+mv [nombre] [nombre]					---	para mover o cambiar nombre
+rm [nombre] -r (r para borrar carpetas)	---	para borrar archivo
+touch [nombre]							---	para crear archivo sin abrir
+echo "[contenido]" > [nombre archivo]	---	para crear un archivo y con contenido
+mkdir [hubicacion][nombre]				---	para crear una carpeta
+zip [nombre].zip [archivo a comprimir]	---	para comprimir archivos o carpetas
+unzip [nombre].zip						---	para descomprimir un archivo zip
+evince [nombre].pdf						---	para abrir PDF
+tree [direccion]						---	para abrir arbol
+
+
+
+
+----------------------------------tar.gz----------------------------------
+tar -zxvf [nombrearchivo].tar.gz		---	Descomprimimos el archivo
+tar -jxvf nombrearchivo.tar.bz2			---	Ora forma de Descomprimir
+./configure					---	Configurar
+make						---	Compilar
+make install					---	Instalar
+[nombreprograma]				---	Ejecutar el programa
+
+
+----------------------------------otras weas-----------------------------
+curl [link]					---	para descargar archivo
+
